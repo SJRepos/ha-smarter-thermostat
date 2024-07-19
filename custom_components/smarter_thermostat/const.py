@@ -19,7 +19,7 @@ DEFAULT_TOLERANCE = 0.3
 DEFAULT_NAME = "Dual Smart Thermostat"
 DEFAULT_MAX_FLOOR_TEMP = 28.0
 
-DOMAIN = "dual_smart_thermostat"
+DOMAIN = "smarter_thermostat"
 
 CONF_HEATER = "heater"
 CONF_AUX_HEATER = "secondary_heater"

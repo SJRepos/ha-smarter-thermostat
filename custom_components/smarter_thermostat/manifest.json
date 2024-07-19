@@ -1,15 +1,17 @@
 {
   "domain": "smarter_thermostat",
   "name": "Smarter Thermostat",
-  "codeowners": ["@sj20035"],
+  "codeowners": [
+    "@sj20035"
+  ],
   "dependencies": [
     "climate",
     "sensor",
     "switch"
   ],
-  "documentation": "https://github.com/sjrepos/smarter-thermostat-tutorial",
+  "documentation": "https://github.com/sjrepos/ha-smarter-thermostat",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/sjrepos/smarter-thermostat/issues",
+  "issue_tracker": "https://github.com/sjrepos/ha-smarter-thermostat/issues",
   "requirements": [],
   "version": "0.1.0"
 }

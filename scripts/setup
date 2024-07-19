@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+#echo "Updating packages..."
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
+echo "Installing missing dependencies..."
+sudo apt install ffmpeg -y
+sudo apt install libturbojpeg0 -y
+
+python3 -m pip install --requirement requirements-dev.txt
