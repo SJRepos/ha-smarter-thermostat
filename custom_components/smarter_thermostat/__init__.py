@@ -2,5 +2,5 @@
 
 from homeassistant.const import Platform
 
-DOMAIN = "dual_smart_thermostat"
+DOMAIN = "smarter_thermostat"
 PLATFORMS = [Platform.CLIMATE]

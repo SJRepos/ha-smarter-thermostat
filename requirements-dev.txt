@@ -1,6 +1,7 @@
 -r requirements.txt
 pip>=24.1.2,<24.2
 pytest-homeassistant-custom-component==0.13.132
+mutagen
 pre-commit
 isort
 black

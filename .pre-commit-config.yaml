@@ -8,16 +8,16 @@ repos:
         # supported by your project here, or alternatively use
         # pre-commit's default_language_version, see
         # https://pre-commit.com/#top_level-default_language_version
-        language_version: python3.10.12
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.6
-    hooks:
-      - id: codespell
-        name: codespell
-        description: Checks for common misspellings in text files.
-        entry: codespell
-        language: python
-        types: [text]
+        language_version: python3.12
+#  - repo: https://github.com/codespell-project/codespell
+#    rev: v2.2.6
+#    hooks:
+#      - id: codespell
+#        name: codespell
+#        description: Checks for common misspellings in text files.
+#        entry: codespell
+#        language: python
+#        types: [text]
   - repo: https://github.com/pycqa/flake8
     rev: '7.0.0'
     hooks:

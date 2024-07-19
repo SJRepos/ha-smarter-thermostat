@@ -1,5 +1,8 @@
 {
   "name": "Smarter Thermostat",
   "render_readme": true,
-  "iot_class": "calculated"
+  "hide_default_branch": true,
+  "country": [],
+  "homeassistant": "2024.6.0",
+  "filename": "ha-smarter-thermostat.zip"
 }
